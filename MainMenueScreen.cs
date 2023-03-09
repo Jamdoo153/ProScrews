@@ -16,5 +16,12 @@ namespace Pro_Screw_Market
         {
             InitializeComponent();
         }
+
+        private void btnProducts_Click(object sender, EventArgs e)
+        {
+            Produkte productScreen = new Produkte(); 
+            productScreen.Show();
+            this.Hide();
+        }
     }
 }

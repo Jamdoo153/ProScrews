@@ -16,8 +16,7 @@ namespace Pro_Screw_Market
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            // Application.Run(new LoadingScreen());
-            Application.Run(new MainMenueScreen());
+            Application.Run(new LoadingScreen());
         }
     }
 }
