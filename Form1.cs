@@ -36,6 +36,14 @@ namespace Pro_Screw_Market
            if(loadingbatValue >= LoadingProgressBar.Maximum)
             {
                 LoadingBarTimer.Stop();  //Stop Timer bei Value = 100
+
+                // Finisch loading show main menu screen
+                MainMenueScreen mainMenueScreen = new MainMenueScreen();
+                mainMenueScreen.Show();
+
+                this.Hide();  // Schliess das Loadingscreen
+
+
             }
         }
 
