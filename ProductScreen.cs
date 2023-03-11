@@ -16,16 +16,25 @@ namespace Pro_Screw_Market
 
     {
         private SqlConnection databaseConnection = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=C:\Users\Walke\Documents\ProScrewsMarket.mdf;Integrated Security = True; Connect Timeout = 30");
+<<<<<<< HEAD
         private int lastSelectedProductKey;
+=======
+        
+>>>>>>> 3d7123e1211b3f6a1b739353a335f6c489db9860
 
         public Produkte()
         {
             InitializeComponent();
+<<<<<<< HEAD
             ShowProduct();
         }
 
         private void ShowProduct()
         {
+=======
+
+            //Start
+>>>>>>> 3d7123e1211b3f6a1b739353a335f6c489db9860
             databaseConnection.Open();
 
             string query = "select * from Product";
@@ -39,11 +48,15 @@ namespace Pro_Screw_Market
             ProductsDGV.Columns[0].Visible = false;
 
             databaseConnection.Close();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3d7123e1211b3f6a1b739353a335f6c489db9860
         }
 
         private void btnProducrtSave_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if(tbxProductName.Text == ""
                 || tbxProductBrand.Text == ""
                 || cbxProductCategorie.Text == ""
@@ -62,10 +75,14 @@ namespace Pro_Screw_Market
             ExecuteQuery(query);
             ClearAllField();
             ShowProduct();
+=======
+
+>>>>>>> 3d7123e1211b3f6a1b739353a335f6c489db9860
         }
 
         private void btnProductEdit_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (lastSelectedProductKey == 0)
             {
                 MessageBox.Show("Bitte wähle zuerst ein rodukt aus");
@@ -83,15 +100,23 @@ namespace Pro_Screw_Market
 
             ExecuteQuery(query);
             ShowProduct();
+=======
+
+>>>>>>> 3d7123e1211b3f6a1b739353a335f6c489db9860
         }
 
         private void btnProductClear_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             ClearAllField();
+=======
+
+>>>>>>> 3d7123e1211b3f6a1b739353a335f6c489db9860
         }
 
         private void btnProductDelete_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if(lastSelectedProductKey == 0)
             {
                 MessageBox.Show("Bitte wähle zuerst ein rodukt aus");
@@ -132,6 +157,8 @@ namespace Pro_Screw_Market
             tbxProductPrice.Text = ProductsDGV.SelectedRows[0].Cells[4].Value.ToString();
 
             lastSelectedProductKey = (int)ProductsDGV.SelectedRows[0].Cells[0].Value;
+=======
+>>>>>>> 3d7123e1211b3f6a1b739353a335f6c489db9860
 
         }
     }

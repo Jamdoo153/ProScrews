@@ -173,9 +173,15 @@
             this.btnProductClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.btnProductClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductClear.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.btnProductClear.Location = new System.Drawing.Point(345, 176);
             this.btnProductClear.Name = "btnProductClear";
             this.btnProductClear.Size = new System.Drawing.Size(181, 38);
+=======
+            this.btnProductClear.Location = new System.Drawing.Point(356, 176);
+            this.btnProductClear.Name = "btnProductClear";
+            this.btnProductClear.Size = new System.Drawing.Size(113, 38);
+>>>>>>> 3d7123e1211b3f6a1b739353a335f6c489db9860
             this.btnProductClear.TabIndex = 11;
             this.btnProductClear.Text = "Felder leeren";
             this.btnProductClear.UseVisualStyleBackColor = false;
@@ -186,7 +192,11 @@
             this.btnProductDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.btnProductDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductDelete.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.btnProductDelete.Location = new System.Drawing.Point(532, 176);
+=======
+            this.btnProductDelete.Location = new System.Drawing.Point(487, 176);
+>>>>>>> 3d7123e1211b3f6a1b739353a335f6c489db9860
             this.btnProductDelete.Name = "btnProductDelete";
             this.btnProductDelete.Size = new System.Drawing.Size(100, 38);
             this.btnProductDelete.TabIndex = 12;
@@ -204,19 +214,28 @@
             this.ProductsDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.ProductsDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ProductsDGV.Location = new System.Drawing.Point(17, 231);
+<<<<<<< HEAD
             this.ProductsDGV.MultiSelect = false;
             this.ProductsDGV.Name = "ProductsDGV";
             this.ProductsDGV.ReadOnly = true;
+=======
+            this.ProductsDGV.Name = "ProductsDGV";
+>>>>>>> 3d7123e1211b3f6a1b739353a335f6c489db9860
             this.ProductsDGV.RowHeadersVisible = false;
             this.ProductsDGV.RowHeadersWidth = 62;
             this.ProductsDGV.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.ProductsDGV.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
             this.ProductsDGV.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.ProductsDGV.RowTemplate.Height = 28;
+<<<<<<< HEAD
             this.ProductsDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.ProductsDGV.Size = new System.Drawing.Size(967, 435);
             this.ProductsDGV.TabIndex = 13;
             this.ProductsDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ProductsDGV_CellContentClick);
+=======
+            this.ProductsDGV.Size = new System.Drawing.Size(967, 435);
+            this.ProductsDGV.TabIndex = 13;
+>>>>>>> 3d7123e1211b3f6a1b739353a335f6c489db9860
             // 
             // Produkte
             // 
